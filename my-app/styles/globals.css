@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './fonts.css';
+
+body {
+  
+  color:#fff;
+  font-family: 'Permanent Marker', cursive; 
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(45deg, #000000, #192231);
+  height: 100vh;
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
