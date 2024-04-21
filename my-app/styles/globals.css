@@ -9,8 +9,30 @@ body {
   font-family: 'Permanent Marker', cursive; 
   font-weight: 400;
   font-style: normal;
-  background: linear-gradient(45deg, #000000, #192231);
+  cursor:none;
+
+ /* background: radial-gradient(circle at center, #000000, #10151d);
   height: 100vh;
+ 
+ /* background-repeat: no-repeat; /* Prevent background from repeating */
+ /* animation: zoomToCenter 30s infinite;*/
+}
+@keyframes zoomToCenter {
+  0% {
+    background-size: 100% 100%; /* Initial size */
+    background-position: center; /* Initial position */
+    
+  }
+  50% {
+    background-size: 200% 200%; /* Zoomed size */
+    background-position: center; /* Center position */
+   
+  }
+  100% {
+    background-size: 100% 100%; /* Initial size */
+    background-position: center; /* Initial position */
+    
+  }
 }
 
 .permanent-marker-regular {
@@ -18,3 +40,9 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+.nav-link {
+  position: relative; /* Ensure z-index works */
+  z-index: 2; /* Set a higher z-index value */
+  /* Add any other styles as needed */
+}
+
