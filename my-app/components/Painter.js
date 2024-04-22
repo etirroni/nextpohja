@@ -1,4 +1,3 @@
-// components/Painter.js
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/Painter.module.css';
 
@@ -13,8 +12,8 @@ const Painter = () => {
   useEffect(() => {
     const handleMouseMove = (event) => {
       setPosition({
-        x: event.clientX,
-        y: event.clientY,
+        x: event.clientX+10,
+        y: event.clientY+10,
       });
     };
 
